@@ -59,13 +59,6 @@ policy = SmolVLAPolicy.from_pretrained(
     "kyle0101/ur5-smolvla-pick-cube-project"
 )
 ```
-# Dataset and Checkpoints
-
-Due to GitHub storage limitations, the collected LeRobot dataset and trained SmolVLA checkpoints are not included in this repository.
-
-Please download them from the Hugging Face repository:
-
-🤗 https://huggingface.co/kyle0101/ur5-smolvla-pick-cube-project
 
 ## Directory Structure
 
