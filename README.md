@@ -23,10 +23,6 @@ Collect three RGB observation image process:
   <img src="docs/camera3.gif" width="30%">
 </p>
 
-
-
-
-
 ---
 
 # Features
@@ -216,19 +212,6 @@ POLICY_PATH = "outputs1/train/smolvla_ur5_pick_cube/checkpoints/last/pretrained_
 Python 3.10
 ```
 
-## Main Dependencies
-
-```text
-PyBullet
-LeRobot
-SmolVLA
-PyTorch
-Transformers
-```
-
----
-
-# Installation
 
 ## Create Virtual Environment
 
@@ -447,41 +430,6 @@ TEST_TASKS = [
 
 ---
 
-# Success Criterion
-
-A task is considered successful when:
-
-```text
-cube_height > 0.72 m
-```
-
-meaning the cube has been lifted above the predefined threshold.
-
----
-
-# Safety Constraints
-
-### Maximum Motion Per Step
-
-```python
-MAX_DELTA_POS = 0.02
-```
-
-### Minimum End-Effector Height
-
-```python
-MIN_EE_Z = 0.775
-```
-
-### Gripper Range
-
-```python
-0.0 ~ 0.085
-```
-
-These constraints help prevent collisions and unstable actions during inference.
-
----
 
 # Evaluation Results
 
@@ -505,17 +453,6 @@ success_rate
 running_success_rate
 ```
 
----
-
-# Dataset and Checkpoints
-
-Due to GitHub storage limitations, datasets and trained checkpoints are not stored in this repository.
-
-Please download them from:
-
-https://huggingface.co/kyle0101/ur5-smolvla-pick-cube-project
-
----
 
 # Future Work
 
@@ -541,20 +478,3 @@ This project is built with:
 
 ---
 
-# Citation
-
-```bibtex
-@misc{ur5_smolvla_pick_cube,
-  title={UR5 SmolVLA Pick-Cube Project},
-  author={kyle},
-  year={2026},
-  publisher={GitHub},
-  url={https://github.com/your-github-repository}
-}
-```
-
----
-
-# License
-
-This project is intended for educational and research purposes.
