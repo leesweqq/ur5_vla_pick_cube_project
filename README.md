@@ -498,7 +498,7 @@ This project is built with:
 ```bibtex
 @misc{ur5_smolvla_pick_cube,
   title={UR5 SmolVLA Pick-Cube Project},
-  author={Li Rui-Kai},
+  author={kyle},
   year={2026},
   publisher={GitHub},
   url={https://github.com/your-github-repository}
