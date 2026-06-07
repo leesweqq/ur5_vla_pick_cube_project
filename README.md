@@ -59,6 +59,69 @@ policy = SmolVLAPolicy.from_pretrained(
     "kyle0101/ur5-smolvla-pick-cube-project"
 )
 ```
+# Dataset and Checkpoints
+
+Due to GitHub storage limitations, the collected LeRobot dataset and trained SmolVLA checkpoints are not included in this repository.
+
+Please download them from the Hugging Face repository:
+
+🤗 https://huggingface.co/kyle0101/ur5-smolvla-pick-cube-project
+
+## Directory Structure
+
+After downloading, place the files in the following locations:
+
+```text
+ur5_vla_project/
+│
+├── lerobot_dataset/
+│   └── (downloaded dataset files)
+│
+├── outputs1/
+│   └── train/
+│       └── smolvla_ur5_pick_cube/
+│           └── checkpoints/
+│               └── last/
+│                   └── pretrained_model/
+```
+
+## Dataset
+
+Download the contents of:
+
+```text
+lerobot_dataset/
+```
+
+and place them into:
+
+```text
+lerobot_dataset/
+```
+
+## Model Checkpoint
+
+Download the model files:
+
+```text
+config.json
+model.safetensors
+policy_preprocessor.json
+policy_postprocessor.json
+train_config.json
+```
+
+and place them into:
+
+```text
+outputs1/train/smolvla_ur5_pick_cube/checkpoints/last/pretrained_model/
+```
+
+The default inference configuration expects the checkpoint to be located at:
+
+```python
+POLICY_PATH = "outputs1/train/smolvla_ur5_pick_cube/checkpoints/last/pretrained_model"
+```
 
 ---
 
