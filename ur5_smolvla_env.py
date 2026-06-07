@@ -273,16 +273,16 @@ class UR5PickCubeEnv:
 
         # Language templates are sampled per episode to diversify task text.
         self.task_templates = [
-            ("pick up the red cube", "pick up the red cube"),
-            ("grasp the red cube", "grasp the red cube"),
-            ("lift the red cube", "lift the red cube"),
-            ("pick up the red cube with the gripper", "pick up the red cube with the gripper"),
-            ("pick up the red cube on the table", "pick up the red cube on the table"),
-            ("please pick up the red cube", "please pick up the red cube"),
-            ("lift the red block", "lift the red block"),
-            ("grasp and lift the red cube", "grasp and lift the red cube"),
-            ("pick up this red cube", "pick up this red cube"),
-            ("grasp and raise the red cube", "grasp and raise the red cube"),
+            ("拿起紅色方塊", "pick up the red cube"),
+            ("抓取紅色方塊", "grasp the red cube"),
+            ("抬起紅色方塊", "lift the red cube"),
+            ("使用夾爪拿起紅色方塊", "pick up the red cube with the gripper"),
+            ("拿起桌上的紅色方塊", "pick up the red cube on the table"),
+            ("請拿起紅色方塊", "please pick up the red cube"),
+            ("抬起紅色積木", "lift the red block"),
+            ("抓取並抬起紅色方塊", "grasp and lift the red cube"),
+            ("拿起這個紅色方塊", "pick up this red cube"),
+            ("抓取並舉起紅色方塊", "grasp and raise the red cube"),
         ]
         self.language_instruction = ""
         self.language_instruction_zh = ""
