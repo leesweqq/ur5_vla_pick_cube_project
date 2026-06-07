@@ -6,6 +6,10 @@
 [![SmolVLA](https://img.shields.io/badge/Policy-SmolVLA-red)]()
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model%20%26%20Dataset-yellow)](https://huggingface.co/kyle0101/ur5-smolvla-pick-cube-project)
 
+A Vision-Language-Action (VLA) robotic manipulation project built with **PyBullet**, **LeRobot**, and **SmolVLA**.
+
+This project simulates a **UR5 robotic arm equipped with a Robotiq 85 gripper**, collects expert demonstrations, trains a **SmolVLA policy**, and evaluates language-conditioned pick-and-lift tasks on a red cube.
+
 <p align="center">
   <img src="docs/demo.gif" width="800">
 </p>
@@ -21,10 +25,6 @@
 **Top:** Human-facing PyBullet view used for visualization.
 
 **Bottom:** Three RGB observation cameras used for dataset collection and SmolVLA policy inference.
-
-A Vision-Language-Action (VLA) robotic manipulation project built with **PyBullet**, **LeRobot**, and **SmolVLA**.
-
-This project simulates a **UR5 robotic arm equipped with a Robotiq 85 gripper**, collects expert demonstrations, trains a **SmolVLA policy**, and evaluates language-conditioned pick-and-lift tasks on a red cube.
 
 ---
 
