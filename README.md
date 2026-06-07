@@ -228,18 +228,13 @@ The preview displays:
 Generate expert demonstrations:
 
 ```powershell
-python ur5_smolvla_env.py ^
-  --episodes 100 ^
-  --repo-id local/ur5_pick_red_cube_3cam
+python ur5_smolvla_env.py --episodes 100 --repo-id local/ur5_pick_red_cube_3cam
 ```
 
 Headless collection:
 
 ```powershell
-python ur5_smolvla_env.py ^
-  --episodes 100 ^
-  --repo-id local/ur5_pick_red_cube_3cam ^
-  --no-gui
+python ur5_smolvla_env.py --episodes 100 --repo-id local/ur5_pick_red_cube_3cam --no-gui
 ```
 
 Generated dataset:
