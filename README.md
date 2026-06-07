@@ -148,9 +148,7 @@ ur5_vla_project/
 │
 ├── outputs1/
 │   └── .gitkeep
-│
-├── task_eval_results.csv
-└── task_eval_results_summary.csv
+
 ```
 
 ---
