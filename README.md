@@ -10,21 +10,22 @@ A Vision-Language-Action (VLA) robotic manipulation project built with **PyBulle
 
 This project simulates a **UR5 robotic arm equipped with a Robotiq 85 gripper**, collects expert demonstrations, trains a **SmolVLA policy**, and evaluates language-conditioned pick-and-lift tasks on a red cube.
 
+Smolvla model inference result:
 <p align="center">
   <img src="docs/demo.gif" width="800">
 </p>
 
 ## Multi-View Observations
-
+Collect three RGB observation image process:  
 <p align="center">
   <img src="docs/camera1.gif" width="30%">
   <img src="docs/camera2.gif" width="30%">
   <img src="docs/camera3.gif" width="30%">
 </p>
 
-**Top:** Human-facing PyBullet view used for visualization.
 
-**Bottom:** Three RGB observation cameras used for dataset collection and SmolVLA policy inference.
+
+
 
 ---
 
